@@ -1,0 +1,15 @@
+== Physical Plan ==
+*(6) SortMergeJoin [ID#16], [ID#0], Inner
+:- *(3) Sort [ID#16 ASC NULLS FIRST], false, 0
+:  +- Exchange hashpartitioning(ID#16, 200)
+:     +- *(2) Filter isnotnull(ID#16)
+:        +- *(2) GlobalLimit 100
+:           +- Exchange SinglePartition
+:              +- *(1) LocalLimit 100
+:                 +- *(1) FileScan parquet [ID#16,Vendor#17] Batched: true, Format: Parquet, Location: InMemoryFileIndex[hdfs://master:9000/data/yellow_tripvendors_1m.parquet], PartitionFilters: [], PushedFilters: [], ReadSchema: struct<ID:string,Vendor:string>
++- *(5) Sort [ID#0 ASC NULLS FIRST], false, 0
+   +- Exchange hashpartitioning(ID#0, 200)
+      +- *(4) Project [ID#0, Start_Datetime#1, End_Datetime#2, Start_Longitude#3, Start_Latitude#4, End_Longitude#5, End_Latitude#6, Cost#7]
+         +- *(4) Filter isnotnull(ID#0)
+            +- *(4) FileScan parquet [ID#0,Start_Datetime#1,End_Datetime#2,Start_Longitude#3,Start_Latitude#4,End_Longitude#5,End_Latitude#6,Cost#7] Batched: true, Format: Parquet, Location: InMemoryFileIndex[hdfs://master:9000/data/yellow_tripdata_1m.parquet], PartitionFilters: [], PushedFilters: [IsNotNull(ID)], ReadSchema: struct<ID:string,Start_Datetime:string,End_Datetime:string,Start_Longitude:float,Start_Latitude:f...
+Time with choosing join type disabled is 19.4653 sec.

@@ -1,0 +1,72 @@
+[nltk_data] Downloading package stopwords to /home/user/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+['credit', 'account', 'report', 'information', 'payment', 'would', 'loan', 'debt', 'bank', 'told', 'company', 'received', 'card', 'called', 'time', 'never', 'payments', 'sent', 'reporting', 'letter', 'pay', 'back', 'paid', 'get', 'also', 'mortgage', 'call', 'amount', 'said', 'made', 'due', 'one', 'accounts', 'number', 'phone', 'could', 'days', 'balance', 'money', 'late', 'collection', 'still', 'since', 'asked', 'nt', 'consumer', 'date', 'years', 'please', 'even', 'name', 'contacted', 'home', 'dispute', 'file', 'make', 'check', 'month', 'request', 'interest', 'removed', 'us', 'months', 'times', 'service', 'new', 'reported', 'help', 'day', 'address', 'agency', 'complaint', 'know', 'requested', 'several', 'stated', 'equifax', 'contact', 'first', 'provide', 'loans', 'another', 'like', 'need', 'remove', 'see', 'without', 'send', 'fraud', 'closed', 'proof', 'email', 'last', 'bureaus', 'original', 'issue', 'identity', 'fees', 'customer', 'want', 'bill', 'went', 'business', 'documents', 'however', 'year', 'charge', 'two', 'take', 'provided', 'well', 'full', 'mail', 'calls', 'filed', 'stating', 'chase', 'financial', 'got', 'going', 'statement', 'spoke', 'trying', 'inquiry', 'fraudulent', 'theft', 'past', 'work', 'score', 'tried', 'charges', 'copy', 'disputed', 'law', 'able', 'notice', 'insurance', 'receive', 'fee', 'process', 'experian', 'owe', 'informed', 'online', 'reports', 'wells', 'opened', 'representative', 'response', 'charged']
+[('Credit reporting credit repair services or other personal consumer reports', SparseVector(150, {0: 0.1568, 2: 0.3191, 3: 0.3473, 66: 0.572})), ('Credit reporting credit repair services or other personal consumer reports', SparseVector(150, {0: 0.0314, 3: 0.1389, 6: 0.0827, 10: 0.0751, 18: 0.1772, 30: 0.0922, 31: 0.0931, 36: 0.1009, 74: 0.1108, 80: 0.2899, 90: 0.1278, 93: 0.396, 110: 0.1318, 126: 0.1323, 132: 0.1308})), ('Credit reporting credit repair services or other personal consumer reports', SparseVector(150, {0: 0.0649, 1: 0.0326, 2: 0.044, 10: 0.1554, 14: 0.1089, 18: 0.1222, 20: 0.0609, 27: 0.0654, 30: 0.0636, 33: 0.0685, 40: 0.0737, 41: 0.0625, 42: 0.0642, 48: 0.07, 50: 0.0769, 51: 0.0689, 84: 0.0801, 85: 0.0808, 104: 0.1668, 136: 0.2199, 140: 0.1084})), ('Credit card', SparseVector(150, {0: 0.3137, 12: 0.4805, 17: 0.3915})), ('Credit card or prepaid card', SparseVector(150, {0: 0.0627, 1: 0.0944, 12: 0.1922, 16: 0.5731, 59: 0.2547, 78: 0.2327, 109: 0.2567, 121: 0.2585}))]
++-----+------+
+|label| count|
++-----+------+
+|  8.0| 14851|
+|  0.0|142982|
+|  7.0| 18807|
+|  1.0|106560|
+|  4.0| 31456|
+| 11.0|  7901|
+| 14.0|  1489|
+|  3.0| 32094|
+|  2.0| 61403|
+| 17.0|    16|
++-----+------+
+only showing top 10 rows
+
++-----+------+
+|label| count|
++-----+------+
+|  8.0| 10357|
+|  0.0|100426|
+|  7.0| 13119|
+|  1.0| 74790|
+|  4.0| 22056|
+| 11.0|  5592|
+| 14.0|  1050|
+|  3.0| 22595|
+|  2.0| 43091|
+| 17.0|    10|
+| 10.0|  5696|
+| 13.0|  1188|
+|  6.0| 13389|
+|  5.0| 17518|
+| 15.0|   986|
+|  9.0|  6616|
+| 16.0|   183|
+| 12.0|  4549|
++-----+------+
+
++-----+-----+
+|label|count|
++-----+-----+
+|  8.0| 4439|
+|  0.0|23704|
+|  7.0| 5471|
+|  1.0|26946|
+|  4.0| 7633|
+| 11.0| 2255|
+| 14.0|  434|
+|  3.0| 9174|
+|  2.0|18023|
+| 17.0|    6|
+| 10.0| 2435|
+| 13.0|  535|
+|  6.0| 5515|
+| 15.0|  431|
+|  5.0| 7412|
+|  9.0| 2768|
+| 16.0|   96|
+| 12.0| 1907|
++-----+-----+
+
+No cached trainset
+Time of fit: 205.46563124656677 seconds
+Test set accuracy = 0.5968959696315643
+Cached trainset
+Time of fit: 204.67906308174133 seconds
+Test set accuracy = 0.5953542976939203

@@ -1,0 +1,4 @@
+Vendor    |   Distance    |   Duration
+('1', 18739.202499298084, 5.233333333333333)
+('2', 18445.843523416574, 14.233333333333333)
+Time of Query 2 using Map-Reduce with csv is: 512.3327081203461 seconds

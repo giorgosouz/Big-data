@@ -1,0 +1,72 @@
+[nltk_data] Downloading package stopwords to /home/user/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+['credit', 'account', 'report', 'information', 'payment', 'would', 'loan', 'debt', 'bank', 'told', 'company', 'received', 'card', 'called', 'time', 'never', 'payments', 'sent', 'reporting', 'letter', 'pay', 'back', 'paid', 'get', 'also', 'mortgage', 'call', 'amount', 'said', 'made', 'due', 'one', 'accounts', 'number', 'phone', 'could', 'days', 'balance', 'money', 'late', 'collection', 'still', 'since', 'asked', 'nt', 'consumer', 'date', 'years', 'please', 'even', 'name', 'contacted', 'home', 'dispute', 'file', 'make', 'check', 'month', 'request', 'interest', 'removed', 'us', 'months', 'times', 'service', 'new', 'reported', 'help', 'day', 'address', 'agency', 'complaint', 'know', 'requested', 'several', 'stated', 'equifax', 'contact', 'first', 'provide', 'loans', 'another', 'like', 'need', 'remove', 'see', 'without', 'send', 'fraud', 'closed', 'proof', 'email', 'last', 'bureaus', 'original', 'issue', 'identity', 'fees', 'customer', 'want', 'bill', 'went', 'business', 'documents', 'however', 'year', 'charge', 'two', 'take', 'provided', 'well', 'full', 'mail', 'calls', 'filed', 'stating', 'chase', 'financial', 'got', 'going', 'statement', 'spoke', 'trying', 'inquiry', 'fraudulent', 'theft', 'past', 'work', 'score', 'tried', 'charges', 'copy', 'disputed', 'law', 'able', 'notice', 'insurance', 'receive', 'fee', 'process', 'experian', 'owe', 'informed', 'online', 'reports', 'wells', 'opened', 'representative', 'response', 'charged', 'fargo', 'every', 'claim', 'funds', 'car', 'immediately', 'case', 'put', 'monthly', 'nothing', 'later', 'regarding', 'used', 'department', 'done', 'attached', 'services', 'modification', 'paying', 'creditor', 'anything', 'person', 'bankruptcy', 'applied', 'within', 'today', 'correct', 'give', 'property', 'documentation', 'showing', 'contract', 'go', 'state', 'someone', 'personal', 'act', 'matter', 'section', 'via', 'court', 'took', 'yet', 'owed', 'inquiries', 'submitted', 'following', 'different', 'listed', 'checking']
+[('Credit reporting credit repair services or other personal consumer reports', SparseVector(200, {0: 0.0853, 2: 0.0473, 3: 0.2059, 7: 0.0214, 18: 0.0438, 19: 0.0223, 24: 0.02, 36: 0.0249, 48: 0.0251, 50: 0.0276, 66: 0.0283, 72: 0.0276, 73: 0.3504, 75: 0.0298, 80: 0.0358, 83: 0.0282, 96: 0.1726, 99: 0.0299, 102: 0.0325, 114: 0.0313, 124: 0.2079, 125: 0.1166, 144: 0.1444, 174: 0.0339, 186: 0.0383, 188: 0.0426, 189: 0.1394, 196: 0.0348, 198: 0.0359})), ('Credit reporting credit repair services or other personal consumer reports', SparseVector(200, {0: 0.0262, 1: 0.1575, 2: 0.0532, 18: 0.0739, 33: 0.1656, 45: 0.1141, 48: 0.0846, 51: 0.0833, 53: 0.0961, 63: 0.1792, 73: 0.0986, 76: 0.3522, 87: 0.0986, 104: 0.1008, 137: 0.1076, 179: 0.1224, 198: 0.1211})), ('Credit reporting credit repair services or other personal consumer reports', SparseVector(200, {0: 0.0967, 2: 0.0491, 6: 0.0637, 8: 0.3404, 10: 0.0578, 23: 0.0641, 33: 0.2292, 34: 0.1481, 63: 0.0827, 69: 0.0966, 88: 0.1064, 131: 0.1016, 133: 0.111, 157: 0.1019, 182: 0.107, 183: 0.112})), ('Debt collection', SparseVector(200, {0: 0.0233, 3: 0.0257, 4: 0.0293, 5: 0.0237, 7: 0.0642, 9: 0.0277, 11: 0.0253, 12: 0.0712, 13: 0.0278, 14: 0.0293, 16: 0.0354, 17: 0.1161, 22: 0.0662, 23: 0.0309, 27: 0.1054, 28: 0.0352, 35: 0.0351, 38: 0.0399, 40: 0.0396, 41: 0.0336, 42: 0.069, 62: 0.0426, 65: 0.0862, 81: 0.0427, 87: 0.0438, 90: 0.0473, 100: 0.1555, 105: 0.0491, 107: 0.0923, 110: 0.0977, 118: 0.0472, 120: 0.052, 136: 0.1182, 154: 0.0604, 160: 0.0503, 168: 0.1018, 193: 0.0555})), ('Credit reporting', SparseVector(200, {0: 0.0785, 3: 0.1738, 43: 0.1225, 49: 0.1236, 76: 0.3522, 87: 0.1479, 99: 0.1511, 112: 0.328, 115: 0.1541, 129: 0.1555, 185: 0.1777, 189: 0.1764}))]
++-----+------+
+|label| count|
++-----+------+
+|  8.0| 14858|
+|  0.0|143180|
+|  7.0| 18815|
+|  1.0|106660|
+|  4.0| 31504|
+| 11.0|  7910|
+| 14.0|  1492|
+|  3.0| 32106|
+|  2.0| 61447|
+| 17.0|    16|
++-----+------+
+only showing top 10 rows
+
++-----+------+
+|label| count|
++-----+------+
+|  8.0| 10381|
+|  0.0|100582|
+|  7.0| 13181|
+|  1.0| 74805|
+|  4.0| 22088|
+| 11.0|  5548|
+| 14.0|  1062|
+|  3.0| 22458|
+|  2.0| 43091|
+| 17.0|    13|
+| 10.0|  5806|
+| 13.0|  1224|
+|  6.0| 13306|
+|  5.0| 17750|
+| 15.0|   995|
+|  9.0|  6561|
+| 16.0|   209|
+| 12.0|  4522|
++-----+------+
+
++-----+-----+
+|label|count|
++-----+-----+
+|  8.0| 4420|
+|  0.0|24241|
+|  7.0| 5536|
+|  1.0|27395|
+|  4.0| 7655|
+| 11.0| 2342|
+| 14.0|  443|
+|  3.0| 9159|
+|  2.0|18080|
+| 17.0|    4|
+| 10.0| 2367|
+| 13.0|  530|
+|  6.0| 5685|
+| 15.0|  433|
+|  5.0| 7333|
+|  9.0| 2823|
+| 16.0|   91|
+| 12.0| 1890|
++-----+-----+
+
+No cached trainset
+Time of fit: 217.34814453125 seconds
+Test set accuracy = 0.6138273776435547
+Cached trainset
+Time of fit: 226.27018690109253 seconds
+Test set accuracy = 0.6112594090924164
